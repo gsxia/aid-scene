@@ -34,23 +34,23 @@
         <h1>
 <a id="aid-a-benchmark-dataset-for-performance-evaluation-of-aerial-scene-classification" class="anchor" href="#aid-a-benchmark-dataset-for-performance-evaluation-of-aerial-scene-classification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AID: A Benchmark Dataset for Performance Evaluation of Aerial Scene Classification</h1>
 
-<p>Gui-Song Xia^1, Jingwen Hu^{1,2}, Fan Hu^{1,2}, Baoguang Shi^3, Xiang Bai^3, Yanfei Zhong^1, Liangpei Zhang^1</p>
+<p>Gui-Song Xia^1^, Jingwen Hu^1,2^, Fan Hu^1,2^, Baoguang Shi^3^, Xiang Bai^3^, Yanfei Zhong^1^, Liangpei Zhang^1^</p>
 
 <blockquote>
 <ol>
-<li>State Key Lab. LIESMARS, Wuhan University, Wuhan 430079, China</li>
-<li>EIS, Wuhan University, Wuhan, 430079, China</li>
-<li>EIC, Huazhong University of Science and Technology, Wuhan 430074, China.</li>
+<li><em>State Key Lab. LIESMARS, Wuhan University, Wuhan 430079, China</em></li>
+<li><em>EIS, Wuhan University, Wuhan, 430079, China</em></li>
+<li><em>EIC, Huazhong University of Science and Technology, Wuhan 430074, China.</em></li>
 </ol>
 </blockquote>
 
-<h2>
-<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h2>
+<h3>
+<a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h3>
 
 <p>Aerial scene classification, which aims to automatically label an aerial image with a specific semantic category, is a fundamental problem for understanding high-resolution remote sensing imagery. In recent years, it has become a dynamic task in remote sensing area and numerous algorithms have been proposed for this task, including many machine learning and data-driven approaches. However, the existing datasets for aerial scene classification like UC-Merced dataset and WHU-RS19 are with relatively small sizes, and the results on them are already saturated. This largely limits the development of scene classification algorithms. This paper describes the Aerial Image Dataset (AID): a large-scale dataset for aerial scene classification. The goal of AID is to advance the state-of-the-arts in scene classification of remote sensing images. For creating AID, we collect and annotate more than ten thousands aerial scene images. In addition, a comprehensive review of the existing aerial scene classification techniques as well as recent widely-used deep learning methods is given. Finally, we provide a performance analysis of typical aerial scene classification and deep learning approaches on AID, which can be served as the baseline results on this benchmark.</p>
 
-<h2>
-<a id="dataset" class="anchor" href="#dataset" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dataset</h2>
+<h3>
+<a id="dataset" class="anchor" href="#dataset" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dataset</h3>
 
 <p>We construct a new and large scale dataset to evaluate the performances of the scene classification algorithms more fairly, add more challenges and aim to promote the development of new methods. The images in our dataset are multi-source data from different remote sensors, which adds more challenge for scene classification than the single source data like <a href="https://guides.github.com/features/mastering-markdown/">UC-Merced dataset</a>. Moreover, all the sample images in each class are carefully chosen from different countries and regions around the world, mainly in China, the United States, England, France, Italy, Japan, Germany, etc., and they are extracted at different time and seasons under different imaging conditions and pixel resolutions, which can help to increase the intra-class diversities. To decrease the inter-class distance, we further add ten types of challenging scenes in the dataset, i.e., baseball field, center, church, medium residential, playground, resort, school, sparse residential, square, storage tanks. Thus, the new dataset is made up of 30 scene types with 10000 images in all. Some samples of each class are shown in Fig.1.</p>
 
